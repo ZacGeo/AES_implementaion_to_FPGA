@@ -245,11 +245,11 @@ SubWord  = 8a84eb01
 ```
 
 <p align="center">
-  <img src="docs/images/rotword_subword_waveform.png" width="62%" alt="RotWord and SubWord XSIM waveform">
+  <img src="images/rotword_subword_waveform.png" width="62%" alt="RotWord and SubWord XSIM waveform">
 </p>
 
 <p align="center">
-  <img src="docs/images/rotword_subword_console.png" width="62%" alt="RotWord and SubWord test output">
+  <img src="images/rotword_subword_console.png" width="62%" alt="RotWord and SubWord test output">
 </p>
 
 ---
@@ -281,11 +281,11 @@ D_K(E_K(P)) = P
 In the XSIM testbench used for the thesis, encryption completed after **18 clock cycles** and decryption after **26 clock cycles**.
 
 <p align="center">
-  <img src="docs/images/aes256_xsim_waveform.png" width="90%" alt="AES-256 XSIM waveform">
+  <img src="images/aes256_xsim_waveform.png" width="90%" alt="AES-256 XSIM waveform">
 </p>
 
 <p align="center">
-  <img src="docs/images/aes256_xsim_console.png" width="82%" alt="AES-256 XSIM console results">
+  <img src="images/aes256_xsim_console.png" width="82%" alt="AES-256 XSIM console results">
 </p>
 
 ---
@@ -302,7 +302,7 @@ Vivado synthesis produced the following resource utilization:
 | I/O | 28 | 500 | 5.60% |
 
 <p align="center">
-  <img src="docs/images/vivado_utilization.png" width="76%" alt="Vivado FPGA resource utilization">
+  <img src="images/vivado_utilization.png" width="76%" alt="Vivado FPGA resource utilization">
 </p>
 
 The low LUT and register utilization is consistent with the iterative architecture: one round datapath is reused instead of duplicating the complete AES round fourteen times.
