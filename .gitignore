@@ -1,0 +1,27 @@
+# Xilinx Vivado generated files
+.Xil/
+*.jou
+*.log
+*.str
+*.wdb
+*.pb
+*.dcp
+
+# Vivado generated directories
+*.cache/
+*.runs/
+*.sim/
+*.gen/
+*.hw/
+*.ip_user_files/
+
+# Temporary / editor files
+*.tmp
+*.bak
+*~
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
